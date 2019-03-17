@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Train Scheduler</title>
+    <title>Train Schedule Creator</title>
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -18,16 +18,17 @@
     />
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
+
   <body>
-    <div class="container">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Anytime is Train Time</h1>
-          <p class="lead">
-            Choo Choo Chee Chee.
-          </p>
-        </div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Anytime is Train Time</h1>
+        <p class="lead">
+          Choo Choo Chee Chee.
+        </p>
       </div>
+    </div>
+    <div class="container">
       <div class="card" id="cardOne">
         <div class="card-header">
           Current Train Schedule
@@ -43,7 +44,7 @@
                 <th scope="col">Minutes Away</th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody id="table-body"></tbody>
           </table>
         </div>
       </div>
@@ -69,7 +70,11 @@
               <label>Frequency (min)</label>
               <input class="form-control" id="inputFrequency" />
             </div>
-            <button type="submit" class="btn btn-primary float-left">
+            <button
+              id="submit"
+              type="submit"
+              class="btn btn-primary float-left"
+            >
               Submit
             </button>
           </form>
@@ -77,5 +82,7 @@
       </div>
     </div>
     <script src="./javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
   </body>
 </html>
