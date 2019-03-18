@@ -11,10 +11,11 @@ I ended up using the following technologies to build the page in addition to sta
 - [jQuery](https://jquery.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Firebase](https://firebase.google.com/)
+- [Moment.js](https://momentjs.com/)
 
 ## How to Use
 
-Fill out each section in the form then click submit. The built in JS and jQuery formulas will tell you when you can next expect each for of transit to arrive at the particular station you are at.
+Fill out each section in the form then click submit. The built in JS/jQuery formulas will tell you when you can next expect the particular form of transit you entered in the forms.
 
 Firebase will save your data so that you will be able to reference this page in the future and not have to reenter the data.
 
