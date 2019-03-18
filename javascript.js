@@ -60,7 +60,7 @@ $(document).ready(function() {
     console.log(childSnapshot.val());
     // this is where I tell firebase to grab values from firebase and reassign the variables I created value.
     trainName = childSnapshot.val().trainName;
-    destination = childSnapshot.val().destination;
+    trainDestination = childSnapshot.val().trainDestination;
     firstTrain = childSnapshot.val().firstTrain;
     trainFrequency = childSnapshot.val().trainFrequency;
     // this is where the math comes in when determining the train schedule and frequency.
