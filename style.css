@@ -1,7 +1,29 @@
 .jumbotron {
   text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+.card {
+  font-family: "Proza Libre", sans-serif;
 }
 
 #cardTwo {
   margin-top: 3%;
 }
+
+#submit {
+  opacity: 0.7;
+}
+#submit:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* My collection of google fonts */
+/* font-family: 'Cormorant', serif;
+font-family: 'Lora', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Domine', serif; */
