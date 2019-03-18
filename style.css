@@ -1,18 +1,39 @@
+/* My collection of google fonts */
+/* font-family: 'Cormorant', serif;
+font-family: 'Lora', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Domine', serif; */
+
+body {
+  background-color: darkgray;
+}
+
 .jumbotron {
   text-align: center;
   font-family: "Libre Baskerville", serif;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 15px double #000000;
+  background-color: #5172f7;
 }
 
 .card {
   font-family: "Proza Libre", sans-serif;
+  border: 3px solid black;
 }
-
+.card-header {
+  background-color: #5172f7;
+  border-bottom: 3px solid black;
+}
 #cardTwo {
   margin-top: 3%;
 }
 
 #submit {
   opacity: 0.7;
+  border: 3px solid black;
 }
 #submit:hover {
   opacity: 1;
@@ -20,10 +41,3 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-
-/* My collection of google fonts */
-/* font-family: 'Cormorant', serif;
-font-family: 'Lora', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Proza Libre', sans-serif;
-font-family: 'Domine', serif; */
